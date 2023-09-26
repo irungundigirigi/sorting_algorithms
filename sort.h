@@ -26,11 +26,13 @@ void print_list(const listint_t *list);
 void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
+void shell_sort(int *array, size_t size);
 
 /* swap functions */
 void int_swap(int *a, int *b);
 void node_swap(listint_t **h, listint_t **n1, listint_t *n2);
 void swap_value(int *a, int *b);
 void bubble_sort(int *array, size_t size);
+void swap(int *a, int *b);
 
 #endif
