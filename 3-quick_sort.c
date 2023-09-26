@@ -1,12 +1,13 @@
 #include "sort.h"
 
+/* protypes of functions */
 void int_swap(int *a, int *b);
 int lomuto_partition(int *array, size_t size, int left, int right);
 void lomuto_quickSort(int *array, size_t size, int left, int right);
 void quick_sort(int *array, size_t size);
 
 /**
- * int_swap - Swap two integers in an array.
+ * int_swap - function that swaps two integers in an array.
  * @first: The first integer to swap.
  * @second: The second integer to swap.
  */
@@ -20,7 +21,7 @@ void int_swap(int *a, int *b)
 }
 
 /**
- * lomuto_partition - Order a subset of an array of integers according to
+ * lomuto_partition - function that orders a subset of an array of integers according to
  *                   the Lomuto partition scheme (last element as pivot).
  * @array: The array of integers.
  * @size: The size of the array.

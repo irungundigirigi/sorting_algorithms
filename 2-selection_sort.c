@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * int_swap - swaps two integers in an array
+ * int_swap - a function that swaps two integers in an array
  * @a: the first int to swap
  * @b: the second int to swap
  */
@@ -16,7 +16,7 @@ void int_swap(int *a, int *b)
 }
 
 /**
- * selection_sort - sort an array of ints in ascending order
+ * selection_sort - a function that sorts an array of ints in ascending order
  * @array: An array of ints
  * @size: size of array
  *
